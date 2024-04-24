@@ -15,7 +15,7 @@ Initially, the data is downloaded and subsequently preprocessed. The code is exe
 
 
 ## Producers and Consumers
-A producer script is developed to stream the preprocessed data, followed by the creation of three consumer scripts. The first consumer executes the Apriori algorithm, followed by the implementation of the PCY algorithm.
+A producer script is crafted to stream the preprocessed data, and subsequently, three consumer scripts are created. The first consumer executes the Apriori algorithm, succeeded by the implementation of the PCY algorithm. A sliding window approach is adopted for these consumers. In contrast, the third consumer utilizes graphical visualization techniques to explore the data visually.
 
 ## Connection to the database
 Each consumer script includes code that establishes a connection between the processed data and a non-relational database, specifically MongoDB in our case.
